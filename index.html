@@ -1,0 +1,435 @@
+
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        .section {
+            margin-bottom: 20px;
+            padding: 20px;
+            border: 1px solid #ddd;
+            background-color: white;
+            margin: 0 15%;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        .name {
+            background-color: #34495e;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+        .name h1, .name p {
+            margin: 0;
+            margin-bottom: 5px;
+        }
+        h2 {
+            color: #2980b9;
+            font-size: 24px;
+        }
+        .projects .project, .education ul, .skills ul {
+            margin-bottom: 15px;
+            padding: 10px;
+        }
+        .projects .project {
+            border-left: 3px solid #2980b9;
+            background-color: #f9f9f9;
+        }
+        .project h3, .education ul li, .skills ul li {
+            margin-top: 0;
+            position: relative;
+            padding-left: 25px;
+        }
+        .education ul li::before, .skills ul li::before {
+            font-family: 'Font Awesome 5 Free';
+            content: '\f00c';
+            color: #2980b9;
+            position: absolute;
+            left: 0;
+            top: 50%;
+            transform: translateY(-50%);
+            font-weight: 900;
+        }
+        img {
+            max-width: 30%;
+            height: auto;
+            display: block;
+            margin: 0 auto 10px;
+        }
+        button {
+            background-color: #2980b9;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 16px;
+            transition: background-color 0.3s ease;
+        }
+        button:hover {
+            background-color: #21618C;
+        }
+        @media screen and (max-width: 768px) {
+            .section {
+                margin: 0 5%;
+            }
+            img {
+                max-width: 50%;
+            }
+        }
+        p, ul {
+            line-height: 1.6;
+        }
+        .project p, .project ul {
+            margin-left: 20px;
+        }
+        .social-links {
+    text-align: center;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.social-link {
+    display: inline-flex;
+    align-items: center;
+    margin: 0 10px;
+    background-color: #2980b9;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 4px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.social-link i {
+    margin-right: 5px;
+    font-size: 20px;
+}
+
+.social-link:hover {
+    background-color: #21618C;
+}
+.additional-interests {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.additional-interests h2 {
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+.interest {
+    display: inline-block;
+    text-align: center;
+    margin: 10px;
+    font-size: 16px;
+}
+
+.interest i {
+    font-size: 30px;
+    display: block;
+    margin-bottom: 5px;
+}
+.work-experience {
+    background-color: #f2f2f2; /* Light grey background for the section */
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.work-experience h2 {
+    color: #333; /* Dark text for the heading */
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.experience {
+    background-color: #fff; /* White background for each experience block */
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+.experience h3 {
+    color: #2980b9; /* Blue color for job titles */
+    margin-bottom: 5px;
+}
+
+.experience p, .experience ul {
+    color: #333; /* Dark text for readability */
+    font-size: 14px;
+}
+
+.experience ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+
+
+
+    </style>
+</head>
+<body>
+    <div class="section name">
+        <h1>Sukhpreet Singh</h1>
+        <p>Contact: 8370757712 | Email: sukhpreetsingh@gmail.com</p>
+        <p>Address: Makhu gate, Ferozepur city, Punjab</p>
+    </div>
+    <div class="social-links">
+        <a href="https://www.linkedin.com/in/sukhpreet-singh-947a20270/" target="_blank" class="social-link">
+            <i class="fab fa-linkedin"></i>LinkedIn
+        </a>
+        <a href="https://github.com/Sukhpreetsingh5131" target="_blank" class="social-link">
+            <i class="fab fa-github"></i>GitHub
+        </a>
+        <a href="https://www.kaggle.com/sukhpreetsinghkhalsa" target="_blank" class="social-link">
+            <i class="fab fa-kaggle"></i>Kaggle
+        </a>
+        <a href="https://twitter.com/sukhpreets97222" target="_blank" class="social-link">
+            <i class="fab fa-twitter"></i>Twitter
+        </a>
+        <a href="https://discord.com/users/your-discord-id" target="_blank" class="social-link">
+            <i class="fab fa-discord"></i>Discord
+        </a>
+    </div>
+    
+<div class="section education">
+    <h2>Education</h2>
+    <img src="https://icons.veryicon.com/png/o/business/resume-icon/education-9.png" alt="Education Image">
+    <ul>
+        <li>Senior Secondry (Non-Medical)- 90%</li>
+        <li>B.Tech (CSE) Punjab Technical University</li>
+        <li>Stanford University Data Science Certification by Andrew Ng</li>
+        <li>Programming Certified Courses (C, C++, Python, SQL) From Certified Tech Square Solution</li>
+    </ul>
+   
+</div>
+
+<div class="section skills">
+    <h2>Skills</h2>
+    <img src="https://www.shutterstock.com/image-vector/skills-icon-check-sign-skilled-260nw-1283634085.jpg" alt="Skills">
+    <ul>
+        
+        <li>Data Science: NumPy, Pandas, Matplotlib</li>
+        <li>Front End Development-HTML,CSS,Javascript</li>
+        <li>Web Framing - Django</li>
+        <li>App Development-Flutter(Dart)</li>
+        <li>Programing proficiency-(C,C++,Python,Javascript)</li>
+        <li>Program Solving Ability - (Solved 100+ Data Structure Questions From Leet Code) </li>
+        <li>Computer Science Fundamentals - Networking,Database,Compiler,Hardware ,Electronics,Project managment and many more .. </li>
+        <li>Machine Learning ,Deep learning and NLP</li>
+        <li>Deployement skills- AWS Certified From Udemy</li>
+        <li>Dockers</li>
+        <li>Git and Github</li>
+        <li>Linux co  mmands </li>
+        <li>API's</li>
+        <li>Langchain and OpenAI API's </li>
+        <li>Web RTC(Real Time Communication)</li>
+        <li>Great Communication Skills </li>
+
+
+       
+      
+
+        <!-- Add more skills as needed -->
+    </ul>
+</div>
+<div class="work-experience">
+    <h2>Work Experience</h2>
+    <div class="experience">
+        <h3>Intern - Tech Square Solutions</h3>
+        <p><strong>Technologies:</strong> C, C++, Python</p>
+        <p><strong>Duration:</strong> [May-2022] - [Desember-2022]</p>
+        <ul>
+            <li>Engaged in hands-on learning with C, C++, and Python.</li>
+            <li>Participated in software development tasks and collaborative projects.</li>
+            <!-- Add more points if necessary -->
+        </ul>
+    </div>
+
+    <div class="experience">
+        <h3>Research Assistant</h3>
+        <p><strong>Project:</strong> Background Cancellation using Deep Learning</p>
+        <p><strong>Guide:</strong> PhD Holder Professor [DR.Japinder singh]</p>
+        <ul>
+            <li>Collaborated on a deep learning project focused on image processing.</li>
+            <li>Developed algorithms for effective background cancellation in images.</li>
+          
+        </ul>
+    </div>
+
+    <div class="experience">
+        <h3>Co-Founder & Developer </h3>
+        <p><strong>Project:</strong> Community App Development</p>
+        <ul>
+            <li>Involved in the ideation and development of a community-focused app.</li>
+            <li>Worked on various aspects of app development, from design to implementation backend and frontend .</li>
+            <li>Actively engaged in strategic brainstorming sessions, focusing on innovative business marketing strategies and solutions, driving forward-thinking approaches to market challenges and opportunities.</li>
+
+         
+        </ul>
+    </div>
+</div>
+
+
+<div class="section projects">
+    <h2>Projects</h2>
+    <img src="https://icons.veryicon.com/png/o/business/resume-icon/project-experience.png" alt="Project Image">
+    <div class="project">
+        <h3>Smart Grocery Inventory Enhancement System</h3>
+      
+        <p><b>Description-</b>Designed and developed a sophisticated software solution to boost brand recognition for a prominent grocery chain. Leveraged IoT technology.</p>
+    </div>
+   <div class="project">
+    <h3>AI-Powered IELTS Speaking Test</h3>
+    <p>
+        <strong>Description:</strong> This innovative application leverages Python and Natural Language Processing to provide a realistic IELTS speaking test experience. It's designed to help users practice and improve their English speaking skills effectively. Key features include:
+    </p>
+    <ul>
+        <li><strong>Fluency:</strong> Analyzes your speech flow and pace.</li>
+        <li><strong>Pronunciation:</strong> Assesses how accurately you pronounce words.</li>
+        <li><strong>Grammar:</strong> Identifies mistakes and suggests corrections.</li>
+        <li><strong>Task Response:</strong> Evaluates your responses against IELTS criteria.</li>
+    </ul>
+    <p>Experience a new way of practicing for your IELTS speaking test!</p>
+    <button onclick="location.href='URL_to_Application'">Try the Test</button>
+</div>
+
+    <!-- Add other projects as needed -->
+    <div class="project">
+       <h3>Virtual Turban with Deep Learning and Computer Vision</h3>
+       <p> <b>Description-</b>A project that assists people in virtually trying different colors of turbans, combining computer vision and deep learning techniques. Apart from that, this project helps to enhance the entire market of turbans.</p>
+       <p><strong>Future Goal -</strong> In the future, I aim to deploy this project by creating and designing a website where people can not only try turbans virtually but also have the option to purchase them directly from the website. This will provide a seamless and integrated experience from virtual trial to purchase, expanding the project's utility and market reach.</p>
+
+    </div>
+   <div class="project">
+    <h3>Writing Analyze - AI-Enhanced Essay Review</h3>
+    <p>
+        <strong>Overview:</strong> Writing Analyze is an advanced application combining the power of OpenAI's GPT-Chat and proprietary algorithms to provide comprehensive essay analysis. It's tailored for students and professionals seeking to enhance their writing skills.
+    </p>
+    <p>
+        <strong>How It Works:</strong> Users begin by submitting their essay title and the essay text. The system then employs a multi-faceted analysis approach, covering:
+    </p>
+    <ul>
+        <li><strong>Task Response:</strong> Evaluates how well the essay addresses the given topic.</li>
+        <li><strong>Coherence and Cohesion:</strong> Assesses the logical flow and connectivity of ideas.</li>
+        <li><strong>Lexical Analysis:</strong> Analyzes vocabulary usage and diversity.</li>
+        <li><strong>Grammar Review:</strong> Identifies grammatical errors and offers corrections.</li>
+    </ul>
+    <p>
+        Upon completion, the application provides a detailed report highlighting strengths and areas for improvement, offering personalized feedback to guide users in refining their writing skills.
+    </p>
+
+<div class="project">
+    <h3>Community Connect - Interactive Discussion Platform</h3>
+    <p>
+        <strong>Overview:</strong> Community Connect is an innovative platform designed to foster interactive discussions among community members. Utilizing WebRTC and JavaScript, this project enables users to create virtual rooms for real-time communication.
+    </p>
+    <p>
+        <strong>Features:</strong>
+        <ul>
+            <li><strong>Room Creation:</strong> Users can create their own rooms to initiate discussions on various topics.</li>
+            <li><strong>Followers and Following:</strong> Members can follow others and get notifications, enhancing community engagement.</li>
+            <li><strong>Real-Time Interaction:</strong> Leveraging WebRTC for seamless, real-time communication within the community.</li>
+            <li><strong>Notifications:</strong> Timely alerts when rooms are created, ensuring active participation.</li>
+        </ul>
+    </p>
+    <p>
+        <strong>Future Goals:</strong> As co-founders with extensive experience, we are committed to evolving this platform. Our vision is to deploy it widely, making it a valuable resource for people to discuss problems, share thoughts, and connect with like-minded individuals.
+    </p>
+</div>
+</div>
+
+<div class="project">
+    <h3>AI University Chatbot - Customized Assistance for Students</h3>
+    <p>
+        <strong>Overview:</strong> The AI University Chatbot is a sophisticated solution designed to streamline student queries and information dissemination. It combines the robustness of RASA, the adaptability of Lanchain, and the intelligence of OpenAI.
+    </p>
+    <p>
+        <strong>Implementation:</strong> Initially developed using RASA, the chatbot was later enhanced with Lanchain and OpenAI, allowing it to process and respond to university-specific data effectively.
+    </p>
+    <p>
+        <strong>Functionality:</strong> This AI-powered chatbot serves as an invaluable resource for university management and students. It can answer a wide range of queries, including:
+        <ul>
+            <li>Fee structure and payment options.</li>
+            <li>Detailed syllabus and academic schedules.</li>
+            <li>University academic deeds, rules, and regulations.</li>
+        </ul>
+    </p>
+    <p>
+        <strong>Impact:</strong> Successfully implemented and recognized at my university, this project significantly improves the information access process, aiding both students and the administrative staff by providing instant, accurate responses to numerous queries.
+    </p>
+</div>
+<div class="project">
+    <h3>Flutter Project Portfolio</h3>
+    <ul>
+        <li>
+            <strong>Quiz Pro:</strong> An interactive quiz application featuring diverse topics and difficulty levels, designed for both entertainment and education.
+        </li>
+        <li>
+            <strong>Expense Tracker:</strong> A personal finance management app that offers intuitive tracking of expenses and incomes, complete with visual analytics for budgeting.
+        </li>
+        <li>
+            <strong>Simple Shopify:</strong> An e-commerce platform tailored for small businesses, enabling easy setup and management of online stores with a user-friendly interface.
+        </li>
+    </ul>
+</div>
+<div class="project">
+    <h3>High-Accuracy Machine Learning Solution</h3>
+    <p>
+        <strong>Overview:</strong> This project showcases the application of advanced machine learning algorithms to solve a complex data science problem. The goal was to achieve high accuracy in predictive modeling for [specific domain or problem, e.g., 'customer behavior prediction' or 'disease diagnosis'].
+    </p>
+    <p>
+        <strong>Process:</strong> The project involved an extensive data preprocessing phase, feature engineering, and the experimentation with various machine learning models, including [list some algorithms used, e.g., 'Random Forest, Neural Networks, SVM']. Rigorous cross-validation and hyperparameter tuning were conducted to optimize the models.
+    </p>
+    <p>
+        <strong>Results:</strong> The chosen model [mention the model that performed best, e.g., 'Random Forest'] achieved an accuracy of [mention the accuracy, e.g., '95%'], significantly outperforming baseline models. This level of precision in the predictions has profound implications for [mention the impact, e.g., 'enhancing customer satisfaction' or 'improving diagnostic processes'].
+    </p>
+    <p>
+        <strong>Key Takeaways:</strong> This project not only demonstrates the power of machine learning in solving real-world problems but also highlights the importance of a methodical approach in data analysis and model selection.
+    </p>
+</div>
+<div class="additional-interests">
+    <h2>Additional Interests & Skills</h2>
+    <div class="interest">
+        <i class="fas fa-futbol"></i>
+        <p>Football</p>
+    </div>
+    <div class="interest">
+        <i class="fas fa-users"></i>
+        <p>Leadership Skills</p>
+    </div>
+    <div class="interest">
+        <i class="fas fa-code"></i>
+        <p>Coding Skills</p>
+    </div>
+    <div class="interest">
+        <i class="fas fa-microphone"></i>
+        <p>Public Speaking</p>
+    </div>
+    <div class="interest">
+        <i class="fas fa-robot"></i>
+        <p>AI Research</p>
+    </div>
+    <div class="interest">
+        <i class="fas fa-laptop-code"></i>
+        <p>Technology</p>
+    </div>
+    <!-- Add more interests here -->
+</div>
+
+</body>
+</html>
